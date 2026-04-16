@@ -9,64 +9,7 @@
         Background="Transparent"
         WindowStartupLocation="CenterScreen">
 
-    <Window.Resources>
-        <SolidColorBrush x:Key="PrimaryAccent" Color="#6366F1"/>
-        <SolidColorBrush x:Key="PrimaryHover" Color="#4F46E5"/>
-        <SolidColorBrush x:Key="SidebarBg" Color="#1E293B"/>
-        <SolidColorBrush x:Key="MainBg" Color="#F8FAFC"/>
-        <SolidColorBrush x:Key="TextLight" Color="#F1F5F9"/>
-        <SolidColorBrush x:Key="TextDark" Color="#1E293B"/>
-
-        <Style x:Key="BaseButtonStyle" TargetType="Button">
-            <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
-            <Setter Property="Background" Value="#334155"/>
-            <Setter Property="Foreground" Value="White"/>
-            <Setter Property="FontFamily" Value="Segoe UI SemiBold"/>
-            <Setter Property="FontSize" Value="13"/>
-            <Setter Property="Height" Value="40"/>
-            <Setter Property="Padding" Value="15,0"/>
-            <Setter Property="Margin" Value="0,0,0,10"/>
-            <Setter Property="Cursor" Value="Hand"/>
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="Button">
-                        <Border Background="{TemplateBinding Background}"
-                                CornerRadius="8"
-                                SnapsToDevicePixels="True">
-                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                        </Border>
-                        <ControlTemplate.Triggers>
-                            <Trigger Property="IsMouseOver" Value="True">
-                                <Setter Property="Background" Value="#475569"/>
-                            </Trigger>
-                        </ControlTemplate.Triggers>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-        </Style>
-
-        <Style x:Key="SidebarButtonStyle" TargetType="Button" BasedOn="{StaticResource BaseButtonStyle}">
-            <Setter Property="Background" Value="Transparent"/>
-            <Setter Property="HorizontalContentAlignment" Value="Left"/>
-            <Style.Triggers>
-                <Trigger Property="IsMouseOver" Value="True">
-                    <Setter Property="Background" Value="#2DD4BF"/>
-                    <Setter Property="Foreground" Value="#0F172A"/>
-                </Trigger>
-            </Style.Triggers>
-        </Style>
-
-        <Style x:Key="SaveButtonStyle" TargetType="Button" BasedOn="{StaticResource BaseButtonStyle}">
-            <Setter Property="Background" Value="{StaticResource PrimaryAccent}"/>
-            <Style.Triggers>
-                <Trigger Property="IsMouseOver" Value="True">
-                    <Setter Property="Background" Value="{StaticResource PrimaryHover}"/>
-                </Trigger>
-            </Style.Triggers>
-        </Style>
-    </Window.Resources>
-
-    <Border Background="{StaticResource MainBg}"
+    <Border Background="#4f4e4e"
             CornerRadius="16"
             BorderThickness="1"
             BorderBrush="#E2E8F0">
@@ -81,7 +24,7 @@
             </Grid.ColumnDefinitions>
 
             <Border Grid.Column="0" 
-                    Background="{StaticResource SidebarBg}" 
+                    Background="#1E293B" 
                     CornerRadius="16,0,0,16">
                 <Grid Margin="20">
                     <Grid.RowDefinitions>
@@ -91,21 +34,67 @@
                     </Grid.RowDefinitions>
 
                     <StackPanel Grid.Row="0" Margin="0,10,0,40">
-                        <TextBlock Text="CALENDAR" Foreground="{StaticResource PrimaryAccent}" FontSize="10" FontWeight="Bold" />
-                        <TextBlock Text="Evently" Foreground="White" FontSize="22" FontWeight="Bold"/>
+                        <TextBlock Text="Query Masters" Foreground="#6366F1" FontSize="10" FontWeight="Bold" />
+                        <TextBlock Text="HomeCalendar" Foreground="White" FontSize="22" FontWeight="Bold"/>
                     </StackPanel>
 
                     <StackPanel Grid.Row="1">
-                        <Button Style="{StaticResource SidebarButtonStyle}" Content="Add New Event"/>
-                        <Button Style="{StaticResource SidebarButtonStyle}" Content="Categories"/>
-                        <Button Style="{StaticResource SidebarButtonStyle}" Content="Analytics"/>
+                        <Button Content="Add New Event" 
+                                Height="40" Margin="0,0,0,10" Padding="15,0" Cursor="Hand"
+                                Foreground="White" FontFamily="Segoe UI SemiBold" FontSize="13"
+                                HorizontalContentAlignment="Left">
+                            <Button.Template>
+                                <ControlTemplate TargetType="Button">
+                                    <Border Background="Transparent" CornerRadius="8" SnapsToDevicePixels="True">
+                                        <ContentPresenter HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10,0,0,0"/>
+                                    </Border>
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="Background" Value="#2DD4BF"/>
+                                            <Setter Property="Foreground" Value="#0F172A"/>
+                                        </Trigger>
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </Button.Template>
+                        </Button>
+
+                        <Button Content="Add New Category" 
+                                Height="40" Margin="0,0,0,10" Padding="15,0" Cursor="Hand"
+                                Foreground="White" FontFamily="Segoe UI SemiBold" FontSize="13"
+                                HorizontalContentAlignment="Left">
+                            <Button.Template>
+                                <ControlTemplate TargetType="Button">
+                                    <Border Background="Transparent" CornerRadius="8" SnapsToDevicePixels="True">
+                                        <ContentPresenter HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10,0,0,0"/>
+                                    </Border>
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="Background" Value="#2DD4BF"/>
+                                            <Setter Property="Foreground" Value="#0F172A"/>
+                                        </Trigger>
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </Button.Template>
+                        </Button>
                     </StackPanel>
 
-                    <Button Grid.Row="2" 
-                            Style="{StaticResource SaveButtonStyle}" 
-                            Content="Save &amp; Sync" 
-                            Click="SaveAndClose_Click"
-                            Margin="0"/>
+                    <Button Grid.Row="2" Content="Save and Quit" 
+                            Height="40" Padding="15,0" Cursor="Hand"
+                            Foreground="White" FontFamily="Segoe UI SemiBold" FontSize="13"
+                            Click="SaveAndClose_Click">
+                        <Button.Template>
+                            <ControlTemplate TargetType="Button">
+                                <Border Background="#6366F1" CornerRadius="8" SnapsToDevicePixels="True">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </Border>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#4F46E5"/>
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
                 </Grid>
             </Border>
 
@@ -118,32 +107,58 @@
 
                 <Border Grid.Row="0" Background="Transparent" MouseLeftButtonDown="Window_MouseDown">
                     <Grid Margin="25,0,10,0">
-                        <TextBlock Text="Project Dashboard" VerticalAlignment="Center" Foreground="#64748B" FontWeight="Medium"/>
-                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
-
-
-                        </StackPanel>
+                        <TextBlock Text="Project Dashboard" VerticalAlignment="Center" Foreground="White" FontWeight="Medium"/>
                     </Grid>
                 </Border>
 
                 <StackPanel Grid.Row="1" Orientation="Horizontal" VerticalAlignment="Center" Margin="25,0">
-                    <Button Style="{StaticResource BaseButtonStyle}" Content="Filter by month" Margin="0,0,10,0" Background="#F1F5F9" Foreground="#475569"/>
-                    <Button Style="{StaticResource BaseButtonStyle}" Content="Filter by category" Margin="0,0,10,0" Background="#F1F5F9" Foreground="#475569"/>
+                    <Button Content="Filter by month" 
+                            Height="40" Margin="0,0,10,0" Padding="15,0" Cursor="Hand"
+                            Foreground="White" FontFamily="Segoe UI SemiBold" FontSize="13" Click="Button_Click_1">
+                        <Button.Template>
+                            <ControlTemplate TargetType="Button">
+                                <Border Background="#4f4e4e" CornerRadius="8" SnapsToDevicePixels="True">
+                                    <ContentPresenter HorizontalAlignment="Center"  VerticalAlignment="Center"/>
+                                </Border>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#E2E8F0"/>
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
 
+                    <Button Content="Filter by category" 
+                            Height="40" Margin="0,0,10,0" Padding="15,0" Cursor="Hand"
+                            Foreground="White" FontFamily="Segoe UI SemiBold" FontSize="13">
+                        <Button.Template>
+                            <ControlTemplate TargetType="Button">
+                                <Border Background="#4f4e4e" CornerRadius="8" SnapsToDevicePixels="True">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </Border>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#E2E8F0"/>
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
                 </StackPanel>
 
                 <Border Grid.Row="2" 
-                        Background="LightGray" 
+                        Background="#d1cfcf" 
                         Margin="25,0,25,25" 
                         CornerRadius="12" 
                         BorderBrush="#E2E8F0" 
                         BorderThickness="1">
                     <Grid x:Name="MainContentGrid">
-                        <TextBlock 
-                            HorizontalAlignment="Center" 
-                            VerticalAlignment="Center" 
-                            Foreground="#CBD5E1" 
-                            FontSize="16"/>
+                        <TextBlock HorizontalAlignment="Center" 
+                                   VerticalAlignment="Center" 
+                                   Foreground="White" 
+                                   FontSize="16"
+                                   Text="No events found"/>
                     </Grid>
                 </Border>
             </Grid>

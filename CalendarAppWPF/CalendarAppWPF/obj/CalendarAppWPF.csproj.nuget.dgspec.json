@@ -1,31 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\2391086\\OneDrive - John Abbott College\\Desktop\\QUERYMASTERS\\QueryMasters-Milestone6\\CalendarAppWPF\\CalendarAppWPF\\CalendarAppWPF.csproj": {}
+    "C:\\Users\\aidin\\OneDrive\\Documents\\OneDrive - John Abbott College\\4th Semester\\App Development\\QueryMasters-Milestone6\\CalendarAppWPF\\CalendarAppWPF\\CalendarAppWPF.csproj": {}
   },
   "projects": {
-    "C:\\Users\\2391086\\OneDrive - John Abbott College\\Desktop\\QUERYMASTERS\\QueryMasters-Milestone6\\CalendarAppWPF\\CalendarAppWPF\\CalendarAppWPF.csproj": {
+    "C:\\Users\\aidin\\OneDrive\\Documents\\OneDrive - John Abbott College\\4th Semester\\App Development\\QueryMasters-Milestone6\\CalendarAppWPF\\CalendarAppWPF\\CalendarAppWPF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\2391086\\OneDrive - John Abbott College\\Desktop\\QUERYMASTERS\\QueryMasters-Milestone6\\CalendarAppWPF\\CalendarAppWPF\\CalendarAppWPF.csproj",
+        "projectUniqueName": "C:\\Users\\aidin\\OneDrive\\Documents\\OneDrive - John Abbott College\\4th Semester\\App Development\\QueryMasters-Milestone6\\CalendarAppWPF\\CalendarAppWPF\\CalendarAppWPF.csproj",
         "projectName": "CalendarAppWPF",
-        "projectPath": "C:\\Users\\2391086\\OneDrive - John Abbott College\\Desktop\\QUERYMASTERS\\QueryMasters-Milestone6\\CalendarAppWPF\\CalendarAppWPF\\CalendarAppWPF.csproj",
-        "packagesPath": "C:\\Users\\2391086\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\2391086\\OneDrive - John Abbott College\\Desktop\\QUERYMASTERS\\QueryMasters-Milestone6\\CalendarAppWPF\\CalendarAppWPF\\obj\\",
+        "projectPath": "C:\\Users\\aidin\\OneDrive\\Documents\\OneDrive - John Abbott College\\4th Semester\\App Development\\QueryMasters-Milestone6\\CalendarAppWPF\\CalendarAppWPF\\CalendarAppWPF.csproj",
+        "packagesPath": "C:\\Users\\aidin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aidin\\OneDrive\\Documents\\OneDrive - John Abbott College\\4th Semester\\App Development\\QueryMasters-Milestone6\\CalendarAppWPF\\CalendarAppWPF\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\2391086\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\aidin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
         ],
         "originalTargetFrameworks": [
           "net8.0-windows"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
