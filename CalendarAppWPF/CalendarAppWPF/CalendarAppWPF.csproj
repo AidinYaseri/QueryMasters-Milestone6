@@ -8,4 +8,10 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="QueryMasters">
+      <HintPath>..\..\Model.dll\QueryMasters.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
