@@ -9,6 +9,9 @@
     {
       "AbsoluteMoniker": "D:0:0:{4F321C8D-3798-4EB5-975D-8F6BC632F120}|CalendarAppWPF\\CalendarAppWPF.csproj|c:\\users\\2391086\\onedrive - john abbott college\\desktop\\querymasters\\querymasters-milestone6\\calendarappwpf\\calendarappwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F321C8D-3798-4EB5-975D-8F6BC632F120}|CalendarAppWPF\\CalendarAppWPF.csproj|solutionrelative:calendarappwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2391086\\AppData\\Local\\Temp\\.vsdbgsrc\\50ab7bdae9243e5122ba9edb32871e43129da7d00db627fba3fc17e8a1e08277\\Window.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +21,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Window.cs",
+              "DocumentMoniker": "C:\\Users\\2391086\\AppData\\Local\\Temp\\.vsdbgsrc\\50ab7bdae9243e5122ba9edb32871e43129da7d00db627fba3fc17e8a1e08277\\Window.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\50ab7bdae9243e5122ba9edb32871e43129da7d00db627fba3fc17e8a1e08277\\Window.cs",
+              "ToolTip": "C:\\Users\\2391086\\AppData\\Local\\Temp\\.vsdbgsrc\\50ab7bdae9243e5122ba9edb32871e43129da7d00db627fba3fc17e8a1e08277\\Window.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\50ab7bdae9243e5122ba9edb32871e43129da7d00db627fba3fc17e8a1e08277\\Window.cs [Read Only]",
+              "ViewState": "AgIAAMUQAAAAAAAAAAAswNgQAAACAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T13:34:43.599Z",
+              "EditorCaption": " [Read Only]"
             },
             {
               "$type": "Document",
@@ -44,7 +60,7 @@
               "RelativeDocumentMoniker": "CalendarAppWPF\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\2391086\\OneDrive - John Abbott College\\Desktop\\QUERYMASTERS\\QueryMasters-Milestone6\\CalendarAppWPF\\CalendarAppWPF\\MainWindow.xaml.cs",
               "RelativeToolTip": "CalendarAppWPF\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAcwCMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-16T13:26:19.962Z",
               "EditorCaption": ""
