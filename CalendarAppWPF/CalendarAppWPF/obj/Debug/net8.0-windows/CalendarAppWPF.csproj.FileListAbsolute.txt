@@ -18,3 +18,4 @@ C:\Users\2391086\OneDrive - John Abbott College\Desktop\QUERYMASTERS\QueryMaster
 C:\Users\2391086\OneDrive - John Abbott College\Desktop\QUERYMASTERS\QueryMasters-Milestone6\CalendarAppWPF\CalendarAppWPF\obj\Debug\net8.0-windows\CalendarAppWPF.pdb
 C:\Users\2391086\OneDrive - John Abbott College\Desktop\QUERYMASTERS\QueryMasters-Milestone6\CalendarAppWPF\CalendarAppWPF\obj\Debug\net8.0-windows\CalendarAppWPF.genruntimeconfig.cache
 C:\Users\2391086\OneDrive - John Abbott College\Desktop\QUERYMASTERS\QueryMasters-Milestone6\CalendarAppWPF\CalendarAppWPF\obj\Debug\net8.0-windows\ref\CalendarAppWPF.dll
+C:\Users\2391086\OneDrive - John Abbott College\Desktop\QUERYMASTERS\QueryMasters-Milestone6\CalendarAppWPF\CalendarAppWPF\obj\Debug\net8.0-windows\CalendarAppWPF_MarkupCompile.lref
