@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace CalendarAppWPF
 {
-    class Presenter
+    public class Presenter
     {
-
+        //Going to complete this later, doing the interface now.
     }
 }
