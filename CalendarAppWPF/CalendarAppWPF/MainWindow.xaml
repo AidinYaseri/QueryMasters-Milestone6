@@ -61,7 +61,7 @@
                         <Button Content="Add New Category" 
                                 Height="40" Margin="0,0,0,10" Padding="15,0" Cursor="Hand"
                                 Foreground="White" FontFamily="Segoe UI SemiBold" FontSize="13"
-                                HorizontalContentAlignment="Left">
+                                HorizontalContentAlignment="Left" Click="Button_AddNewCategory">
                             <Button.Template>
                                 <ControlTemplate TargetType="Button">
                                     <Border Background="Transparent" CornerRadius="8" SnapsToDevicePixels="True">

@@ -1,0 +1,90 @@
+﻿<Window x:Class="CalendarAppWPF.AddNewCategory"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CalendarAppWPF"
+        mc:Ignorable="d"
+        Title="Add New Category" Height="450" Width="800"
+        Background="Transparent" >
+
+    <Border Background="#4A4A4A" 
+            CornerRadius="16" 
+            BorderThickness="1" 
+            BorderBrush="#CBCBCB">
+        <Border.Effect>
+            <DropShadowEffect BlurRadius="20" ShadowDepth="2" Opacity="0.3" Color="Black"/>
+        </Border.Effect>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <StackPanel Grid.Row="1" Margin="25">
+                <TextBlock Text="Create a Category" Foreground="#FFFFE3" FontSize="24" FontWeight="Bold" Margin="0,0,0,20"/>
+
+                <Border Background="#FFFFE3" CornerRadius="8" Padding="10,5" Margin="0,0,0,15">
+                    <TextBox x:Name="CategoryInput" Background="Transparent" BorderThickness="0" 
+                             FontSize="14" Foreground="#4A4A4A" VerticalAlignment="Center"/>
+                </Border>
+
+                <Button Content="Add Category" Height="40" Width="140" HorizontalAlignment="Left" Cursor="Hand"
+                        Foreground="#FFFFE3" FontFamily="Segoe UI SemiBold" FontSize="13">
+                    <Button.Template>
+                        <ControlTemplate TargetType="Button">
+                            <Border x:Name="btnBorder" Background="#6D8196" CornerRadius="8" SnapsToDevicePixels="True">
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Border>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter TargetName="btnBorder" Property="Background" Value="#CBCBCB"/>
+                                    <Setter Property="Foreground" Value="#4A4A4A"/>
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+
+                <Grid Margin="0,25,0,5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="40"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Text="Name" Foreground="#CBCBCB" FontWeight="Bold" FontSize="12"/>
+                    <TextBlock Grid.Column="1" Text="Description" Foreground="#CBCBCB" FontWeight="Bold" FontSize="12"/>
+                </Grid>
+
+                <Border Background="#CBCBCB" CornerRadius="8" Height="150" BorderBrush="#6D8196" BorderThickness="1">
+                    <ScrollViewer VerticalScrollBarVisibility="Auto">
+                        <StackPanel x:Name="CategoryList">
+                            <Border Background="#4A4A4A" Margin="5" CornerRadius="6" Padding="8">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="30"/>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock Text="Holiday" Foreground="#FFFFE3" VerticalAlignment="Center"/>
+                                    <TextBlock Grid.Column="1" Text="Vacation days" Foreground="#CBCBCB" VerticalAlignment="Center"/>
+
+                                    <Button Grid.Column="2" Content="✕" Foreground="#FFFFE3" Background="#6D8196" BorderThickness="0" Width="20" Height="20" FontWeight="Bold">
+                                        <Button.Template>
+                                            <ControlTemplate TargetType="Button">
+                                                <Border Background="{TemplateBinding Background}" CornerRadius="4">
+                                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                                </Border>
+                                            </ControlTemplate>
+                                        </Button.Template>
+                                    </Button>
+                                </Grid>
+                            </Border>
+                        </StackPanel>
+                    </ScrollViewer>
+                </Border>
+            </StackPanel>
+        </Grid>
+    </Border>
+</Window>

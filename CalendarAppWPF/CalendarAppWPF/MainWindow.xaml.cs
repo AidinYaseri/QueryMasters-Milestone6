@@ -42,5 +42,12 @@ namespace CalendarAppWPF
         {
 
         }
+
+        private void Button_AddNewCategory(object sender, RoutedEventArgs e)
+        {
+            AddNewCategory addNewCategoryWindow = new AddNewCategory();
+            addNewCategoryWindow.ShowDialog();
+
+        }
     }
 }
