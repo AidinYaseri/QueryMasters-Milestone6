@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CalendarAppWPF")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cac5becf401a1ce4b0b6e8cb88751c08e815c913")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a82d0ad57f1824c880c4d6418545e67c1076d887")]
 [assembly: System.Reflection.AssemblyProductAttribute("CalendarAppWPF")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CalendarAppWPF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

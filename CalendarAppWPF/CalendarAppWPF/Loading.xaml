@@ -1,0 +1,48 @@
+﻿<Window x:Class="CalendarAppWPF.Loading"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        Background="Transparent"
+        Width="500" Height="300"
+        AllowsTransparency="True">
+
+    <Border Background="#0F0F0F" CornerRadius="25">
+        <Grid>
+
+            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+
+                <!-- Status text -->
+                <TextBlock 
+                    x:Name="StatusText"
+                    Text="Setting up your calendar"
+                    Foreground="#EAEAEA"
+                    FontSize="14"
+                    FontWeight="Medium"
+                    HorizontalAlignment="Center"
+                    Margin="0,0,0,12"/>
+
+                <!-- Loading bar -->
+                <Grid Width="220" Height="4" Background="#2A2A2A" ClipToBounds="True">
+                    <Border 
+                        x:Name="LoadingBar"
+                        Width="60"
+                        Height="4"
+                        Background="#3A86FF"
+                        CornerRadius="2"
+                        HorizontalAlignment="Left"
+                        RenderTransformOrigin="0,0">
+
+                        <Border.RenderTransform>
+                            <TranslateTransform x:Name="BarTransform"/>
+                        </Border.RenderTransform>
+                        
+                    </Border>
+                </Grid>
+
+            </StackPanel>
+
+        </Grid>
+    </Border>
+</Window>
