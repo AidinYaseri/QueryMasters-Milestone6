@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "PFfzy4OGKMI=",
+  "dgSpecHash": "pLVSCxa+zEM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\aidin\\OneDrive\\Documents\\OneDrive - John Abbott College\\4th Semester\\App Development\\QueryMasters-Milestone6\\CalendarAppWPF\\CalendarAppWPF\\CalendarAppWPF.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\gabik\\source\\repos\\QueryMasters-Milestone6\\CalendarAppWPF\\CalendarAppWPF\\CalendarAppWPF.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gabik\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.24\\microsoft.windowsdesktop.app.ref.8.0.24.nupkg.sha512",
+    "C:\\Users\\gabik\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.24\\microsoft.netcore.app.ref.8.0.24.nupkg.sha512",
+    "C:\\Users\\gabik\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.24\\microsoft.aspnetcore.app.ref.8.0.24.nupkg.sha512",
+    "C:\\Users\\gabik\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.24\\microsoft.netcore.app.host.win-x64.8.0.24.nupkg.sha512"
+  ],
   "logs": []
 }

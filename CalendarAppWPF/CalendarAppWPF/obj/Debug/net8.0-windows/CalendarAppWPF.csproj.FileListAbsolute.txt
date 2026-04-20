@@ -38,3 +38,23 @@ C:\Users\aidin\OneDrive\Documents\OneDrive - John Abbott College\4th Semester\Ap
 C:\Users\aidin\OneDrive\Documents\OneDrive - John Abbott College\4th Semester\App Development\QueryMasters-Milestone6\CalendarAppWPF\CalendarAppWPF\obj\Debug\net8.0-windows\CalendarAppWPF.pdb
 C:\Users\aidin\OneDrive\Documents\OneDrive - John Abbott College\4th Semester\App Development\QueryMasters-Milestone6\CalendarAppWPF\CalendarAppWPF\obj\Debug\net8.0-windows\CalendarAppWPF.genruntimeconfig.cache
 C:\Users\aidin\OneDrive\Documents\OneDrive - John Abbott College\4th Semester\App Development\QueryMasters-Milestone6\CalendarAppWPF\CalendarAppWPF\obj\Debug\net8.0-windows\ref\CalendarAppWPF.dll
+C:\Users\gabik\source\repos\QueryMasters-Milestone6\CalendarAppWPF\CalendarAppWPF\bin\Debug\net8.0-windows\CalendarAppWPF.exe
+C:\Users\gabik\source\repos\QueryMasters-Milestone6\CalendarAppWPF\CalendarAppWPF\bin\Debug\net8.0-windows\CalendarAppWPF.deps.json
+C:\Users\gabik\source\repos\QueryMasters-Milestone6\CalendarAppWPF\CalendarAppWPF\bin\Debug\net8.0-windows\CalendarAppWPF.runtimeconfig.json
+C:\Users\gabik\source\repos\QueryMasters-Milestone6\CalendarAppWPF\CalendarAppWPF\bin\Debug\net8.0-windows\CalendarAppWPF.dll
+C:\Users\gabik\source\repos\QueryMasters-Milestone6\CalendarAppWPF\CalendarAppWPF\bin\Debug\net8.0-windows\CalendarAppWPF.pdb
+C:\Users\gabik\source\repos\QueryMasters-Milestone6\CalendarAppWPF\CalendarAppWPF\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\gabik\source\repos\QueryMasters-Milestone6\CalendarAppWPF\CalendarAppWPF\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\gabik\source\repos\QueryMasters-Milestone6\CalendarAppWPF\CalendarAppWPF\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\gabik\source\repos\QueryMasters-Milestone6\CalendarAppWPF\CalendarAppWPF\obj\Debug\net8.0-windows\CalendarAppWPF_MarkupCompile.cache
+C:\Users\gabik\source\repos\QueryMasters-Milestone6\CalendarAppWPF\CalendarAppWPF\obj\Debug\net8.0-windows\CalendarAppWPF.g.resources
+C:\Users\gabik\source\repos\QueryMasters-Milestone6\CalendarAppWPF\CalendarAppWPF\obj\Debug\net8.0-windows\CalendarAppWPF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabik\source\repos\QueryMasters-Milestone6\CalendarAppWPF\CalendarAppWPF\obj\Debug\net8.0-windows\CalendarAppWPF.AssemblyInfoInputs.cache
+C:\Users\gabik\source\repos\QueryMasters-Milestone6\CalendarAppWPF\CalendarAppWPF\obj\Debug\net8.0-windows\CalendarAppWPF.AssemblyInfo.cs
+C:\Users\gabik\source\repos\QueryMasters-Milestone6\CalendarAppWPF\CalendarAppWPF\obj\Debug\net8.0-windows\CalendarAppWPF.csproj.CoreCompileInputs.cache
+C:\Users\gabik\source\repos\QueryMasters-Milestone6\CalendarAppWPF\CalendarAppWPF\obj\Debug\net8.0-windows\CalendarAppWPF.sourcelink.json
+C:\Users\gabik\source\repos\QueryMasters-Milestone6\CalendarAppWPF\CalendarAppWPF\obj\Debug\net8.0-windows\CalendarAppWPF.dll
+C:\Users\gabik\source\repos\QueryMasters-Milestone6\CalendarAppWPF\CalendarAppWPF\obj\Debug\net8.0-windows\refint\CalendarAppWPF.dll
+C:\Users\gabik\source\repos\QueryMasters-Milestone6\CalendarAppWPF\CalendarAppWPF\obj\Debug\net8.0-windows\CalendarAppWPF.pdb
+C:\Users\gabik\source\repos\QueryMasters-Milestone6\CalendarAppWPF\CalendarAppWPF\obj\Debug\net8.0-windows\CalendarAppWPF.genruntimeconfig.cache
+C:\Users\gabik\source\repos\QueryMasters-Milestone6\CalendarAppWPF\CalendarAppWPF\obj\Debug\net8.0-windows\ref\CalendarAppWPF.dll
