@@ -39,5 +39,4 @@ C:\Users\aidin\OneDrive\Documents\OneDrive - John Abbott College\4th Semester\Ap
 C:\Users\aidin\OneDrive\Documents\OneDrive - John Abbott College\4th Semester\App Development\QueryMasters-Milestone6\CalendarAppWPF\CalendarAppWPF\obj\Debug\net8.0-windows\CalendarAppWPF.genruntimeconfig.cache
 C:\Users\aidin\OneDrive\Documents\OneDrive - John Abbott College\4th Semester\App Development\QueryMasters-Milestone6\CalendarAppWPF\CalendarAppWPF\obj\Debug\net8.0-windows\ref\CalendarAppWPF.dll
 C:\Users\aidin\OneDrive\Documents\OneDrive - John Abbott College\4th Semester\App Development\QueryMasters-Milestone6\CalendarAppWPF\CalendarAppWPF\obj\Debug\net8.0-windows\AddNewCategory.g.cs
-C:\Users\aidin\OneDrive\Documents\OneDrive - John Abbott College\4th Semester\App Development\QueryMasters-Milestone6\CalendarAppWPF\CalendarAppWPF\obj\Debug\net8.0-windows\CalendarAppWPF_MarkupCompile.lref
 C:\Users\aidin\OneDrive\Documents\OneDrive - John Abbott College\4th Semester\App Development\QueryMasters-Milestone6\CalendarAppWPF\CalendarAppWPF\obj\Debug\net8.0-windows\AddNewCategory.baml
